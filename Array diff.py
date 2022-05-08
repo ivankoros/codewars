@@ -1,15 +1,8 @@
-one = [ 1, [ 1, 1 ] ]
-two = [ 2, [ 2, 2 ] ]
+# find the difference between two arrays
 
-print(len(one))
-print(len(two))
-
-def same_structure_as(original,other):
-    if len(original) == len(original):
-        return all(len)
-
-
-
-
-ddddddddddddddddddddddddd
-same_structure_as(one, two)
+def array_diff(a, b):
+    newArray = []
+    for i in a:
+        if i not in b:
+            newArray.append(i)
+    return(newArray)
